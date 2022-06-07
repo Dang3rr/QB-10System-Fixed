@@ -1,0 +1,199 @@
+*{
+    user-select: none;
+    font-family: Calibri;
+    
+}
+
+.systyem-wrap {
+    display: none;
+    position: absolute;
+    left: 1%;
+    top : 3%;
+    height: auto;
+    width: fit-content;
+    float: right;
+    flex-direction: column;
+    border-radius: 3px;
+    direction: ltr;
+    font-family: Calibri;
+    border:1px solid rgb(100, 100, 100);
+    background-color: #000000b9;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.80);
+}
+.header {
+    text-align: center;
+    color: white;
+    padding: 3px 15px 3px 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #242424;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display:flex;
+    justify-content: center;
+    border-bottom: 2px solid #242424;
+}
+.header-txt {
+    transition: transform 0.5s;
+}
+.header:hover > .header-txt {
+    transform: scale(1.08);
+}
+.systyem-container {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+
+.officers {
+    margin-right: 4px;
+
+    margin-left: 4px;
+    color: white;
+    text-align: left;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-size: 1rem;
+}
+
+.officers.me{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.tag{
+    background-color: #242424;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 1px 2px 1px 2px;
+    border-radius: 4px;
+}
+
+.onduty {
+    color:green
+}
+
+.offduty {
+    color:rgb(255, 0, 0)
+}
+
+.settings-wrap{
+    display: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 270px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+.settings-header{
+    border-top: 0.5px solid #242424;
+    border-bottom: 0.5px solid #242424;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 1.4rem;
+}
+
+.btn-inputs{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.input {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    background-color: #242424;
+    outline: none;
+    width: 220px;
+    height: 35px;
+    border-radius: 2px 2px 4px 4px;
+    box-shadow: inset 0px 0px 10px 0px rgb(255 255 255 / 10%);
+    border-top: 1px solid #242424;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    font-size: 1.5vh;
+}
+
+.input:focus{
+    outline: 0.2vmin solid #3ac180;
+}
+
+.update-btn {
+    color: white;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #242424;
+    border-radius: 3px;
+    width: 224px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.update-btn:hover{
+    background-color: #363636;
+    color: #3ac180;
+}
+
+#increase-size {
+    position: absolute;
+    transform: translateX(-50.8%);
+    top: 30%;
+    left: 50%;
+    -webkit-appearance: none;
+    width: 82%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+#increase-size:hover {
+    opacity: 1;
+}
+  
+#increase-size::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #31465E;
+    cursor: pointer;
+}
+  
+#increase-size::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #31465E;
+    cursor: pointer;
+}
+.show{
+    display: none;
+    position: absolute;
+    right: 2%;
+    top: 3.8%;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://kit.fontawesome.com/6b037c9e5a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a391ae91c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="systyem-wrap">
+        <div class="header">
+            <span class="header-txt">Active Officers</span>
+        </div>
+        <div class="systyem-container">
+            <div class="officers">
+                <span class="tag">250</span>Brian Rogers | Academic - <span style="color: #e41313; font-weight: bold;" class="">(1)</span></span>
+            </div>
+            <div class="officers">
+                <span class="tag">400</span>Sergey Michaelov | Academic - <span style="color: #e41313; font-weight: bold;" class="">(2)</span></span>
+            </div>
+            <div class="officers">
+                <span class="tag">350</span>Daniel Boruz | Academic - <span style="color: #e41313; font-weight: bold;" class="">(1)</span></span>
+            </div>
+            <div class="officers">
+                <span class="tag">150</span>Michael Scofield | Academic - <span style="color: #e41313; font-weight: bold;" class="">(3)</span></span>
+            </div>
+            <div class="officers">
+                <span class="tag">200</span>Brian Davis | Academic - <span style="color: #e41313; font-weight: bold;" class="">(1)</span>
+            </div>
+        </div>
+    </div>
+    <div class="settings-wrap">
+        <div class="settings-header">
+            <span>SETTINGS</span>
+            <span class="show" id="close"><i class="fas fa-times-circle"></i></span>
+            <span class="show" id="open"><i class="fas fa-check-circle"></i></span>
+        </div>
+        <input class="range-bar" id = "increase-size" type="range" value="contrast" max="0.8" min="0.4" step="0.01">
+
+        <div class="btn-inputs">
+            <!-- <input type="text" id="grade" placeholder="GRADE" class="input"> -->
+            <input type="text" id="code" placeholder="CODE" class="input">
+        </div>
+        <div class="update-btn">UPDATE <i class="fas fa-pen-square"></i></div>
+    </div>
+</body>
+</html>
